@@ -1,0 +1,29 @@
+/*NAVIGATION BAR*/
+nav
+{
+    display: block;
+    position: fixed;
+    
+    width: 100vw;
+    height: auto;
+    
+    background-color: black;
+}
+
+/*MENUS LIST*/
+nav ul
+{
+    
+}
+
+/*EACH MENU*/
+nav li
+{
+    
+}
+
+/*EACH MENU CONTENT*/
+nav a
+{
+    
+}
