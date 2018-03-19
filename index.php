@@ -7,6 +7,9 @@
         
         <!--########## STYLES SHEETS ##########-->
         
+        <!--GENERAL & RESSOURCES-->
+        <link rel="stylesheet" type="text/css" href="styles/general.css">
+        
         <!--NAVIGATION BAR-->
         <link rel="stylesheet" type="text/css" href="styles/navbar/desktop.css">
         
@@ -22,13 +25,13 @@
     <body>
     
         <!--NAVIGATION BAR-->
-        <? include 'elements/navbar.html'?>
+        <?php include 'elements/navbar.html'?>
         
         <!--HEADER-->
-        <? include 'elements/header.html'?>
+        <?php include 'elements/header.html'?>
         
         <!--PRESENTATION-->
-        <? include 'elements/presentation.html'?>
+        <?php include 'elements/presentation.html'?>
     </body>
     
 </html>
