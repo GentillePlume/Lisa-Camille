@@ -55,6 +55,7 @@ header div div
     
     min-height: 25%;
     height: auto;
+    max-height: 100%;
     
     flex-flow: column nowrap;
     justify-content: space-between;
