@@ -67,7 +67,7 @@ nav li
     height: 100%;
 }
 
-/*EACH MENU CONTENT*/
+/*LINK MENU BOX*/
 nav a
 {
     display: flex;
@@ -77,7 +77,14 @@ nav a
     
     justify-content: center;
     align-items: center;
+    
+    transition: all .1s ease-in-out 0s;
 }
+
+/*LINK MENU BOX - WHEN HOVERED*/
+nav a:hover {background-color: #0355f0}
+/*TEXT CONTENT - WHEN HOVERED*/
+nav a:hover p {color: white}
 
 /*TEXT CONTENT OF EACH MENU*/
 nav li p
@@ -92,4 +99,6 @@ nav li p
     font-size: 40px;
     font-family: PoiretOne;
     color: black;
+    
+    transition: all .1s ease-in-out 0s;
 }
