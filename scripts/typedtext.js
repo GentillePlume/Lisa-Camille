@@ -5,12 +5,12 @@ var typed = new Typed('header div div p', {
     backSpeed: 15,
     backDelay: 3000,
     showCursor: false,
-    startDelay: 4000,
+    startDelay: 5000,
 });
 
 var typed = new Typed('header div div h1', {
     strings: ["Lisa Camille"],
-    typeSpeed: 200,
+    typeSpeed: 175,
     startDelay: 750,
     loop: false,
     backSpeed: 15,
