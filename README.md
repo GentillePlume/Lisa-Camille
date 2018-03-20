@@ -26,6 +26,7 @@ This is a present project for Lisa Camille, an artist that I very love and I sup
 - [ ] Basic CSS style ❌
 
 ## SCRIPTS
+- [ ] Comment and clean navbar.js ⌛️
 
 ## GENERAL
 - [ ] Customize the scrollbar ❌
