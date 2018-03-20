@@ -9,6 +9,7 @@
         
         <!--GENERAL & RESSOURCES-->
         <link rel="stylesheet" type="text/css" href="styles/general.css">
+        <link rel="stylesheet" type="text/css" href="ressources/fonts/fonts.css">
         
         <!--NAVIGATION BAR-->
         <link rel="stylesheet" type="text/css" href="styles/navbar/desktop.css">
@@ -24,6 +25,8 @@
     
     <body>
     
+        <!--########## ELEMENTS ##########-->
+        
         <!--NAVIGATION BAR-->
         <?php include 'elements/navbar.html'?>
         
@@ -32,6 +35,12 @@
         
         <!--PRESENTATION-->
         <?php include 'elements/presentation.html'?>
+        
+        <!--########## SCRIPTS ##########-->
+        
+        <script src="scripts/sizes.js"></script>
+        
+        
     </body>
     
 </html>
