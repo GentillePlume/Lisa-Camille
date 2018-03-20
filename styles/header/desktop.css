@@ -1,10 +1,88 @@
+/*SECTION PROPERTIES*/
 header
 {
     display: flex;
     
     width: 100vw;
     height: 100vh;
-    
-    background-image: url(../../img/wallpaper.jpg);
+
     background-position: center;
+}
+
+/*OVERLAY*/
+header > div
+{
+    display: flex;
+    
+    width: 100%;
+    height: 100%;
+    
+    margin: auto 0;
+    
+    justify-content: center;
+    align-items: center;
+    
+    background-color: rgba(0,0,0,.5);
+}
+
+/*VIDEO BACKGROUND PROPERTIES*/
+#bgvid
+{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(../../img/wallpaper.jpg) no-repeat;
+    background-size: cover;
+}
+
+/*MAIN CONTENT BOX*/
+header div div
+{
+    display: flex;
+    
+    min-width: 50%;
+    width: auto;
+    max-width: 70%;
+    
+    min-height: 20%;
+    height: auto;
+    
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*TITLE*/
+header div div h1
+{
+    display: inline-block;
+    
+    width: auto;
+    height: auto;
+    
+    font-size: 200px;
+    font-family: LoveHewits;
+    color: white;
+}
+
+/*DESCRIPTIONS*/
+header div div p
+{
+    display: inline-block;
+    
+    width: auto;
+    height: auto;
+    
+    font-size: 50px;
+    font-family: QuickSand;
+    color: white;
 }
