@@ -7,9 +7,13 @@
         
         <!--########## STYLES SHEETS ##########-->
         
-        <!--GENERAL & RESSOURCES-->
-        <link rel="stylesheet" type="text/css" href="styles/general.css">
-        <link rel="stylesheet" type="text/css" href="ressources/fonts/fonts.css">
+        <!--TOOLS & RESSOURCES-->
+        <link href="resources/animate.css" rel="stylesheet">
+        <link href="resources/fontawesome-5.0.8/web-fonts-with-css/css/fontawesome-all.css" rel="stylesheet">
+        <link href="resources/fonts/fonts.css" rel="stylesheet">
+        
+        <!--GENERAL PROPERTIES-->
+        <link href="styles/general.css" rel="stylesheet">
         
         <!--NAVIGATION BAR-->
         <link rel="stylesheet" type="text/css" href="styles/navbar/desktop.css">
@@ -38,7 +42,16 @@
         
         <!--########## SCRIPTS ##########-->
         
+        <!--RESOURCES-->
+        <script src="resources/jquery-3.3.1.js"></script>
+        <script src="resources/typed.js/lib/typed.js"></script>
+        <script src="resources/particles.js/particles.js"></script>
+        
+        <!--OTHER SCRIPTS-->
         <script src="scripts/sizes.js"></script>
+        <script src="scripts/navbar.js"></script>
+        <script src="scripts/typedtext.js"></script>
+        <script src="scripts/app.js"></script>
         
         
     </body>
