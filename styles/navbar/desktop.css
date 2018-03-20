@@ -1,35 +1,95 @@
 /*NAVIGATION BAR*/
 nav
 {
-    display: block;
-    position: fixed;
+    display: flex;
+    position: fixed; 
+    bottom: 0;
     
     width: 100vw;
+    height: 10vh;
+    
+    flex-flow: row nowrap;
+    
+    justify-content: space-between;
+    align-items: center;
+    
+    background-color: white;
+}
+
+/*LOGO SPACE*/
+nav div
+{
+    display: flex;
+    
+    width: 25%;
+    height: 100%;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+/*LOGO TEXT CONTENT*/
+nav div p
+{
+    display: inline-block;
+    
+    width: auto;
     height: auto;
     
-    background-color: black;
+    margin: auto;
+    
+    font-size: 110px;
+    font-family: LoveHewits;
+    color: #009dff;
 }
 
 /*MENUS LIST*/
 nav ul
 {
+    display: flex;
     
+    width: 75%;
+    height: 100%;
+    
+    padding: 0;
+    
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
 }
 
 /*EACH MENU*/
 nav li
 {
+    display: inline-block;
     
+    width: auto;
+    height: 100%;
 }
 
 /*EACH MENU CONTENT*/
 nav a
 {
+    display: flex;
     
+    width: 100%;
+    height: 100%;
+    
+    justify-content: center;
+    align-items: center;
 }
 
 /*TEXT CONTENT OF EACH MENU*/
-nav p
+nav li p
 {
+    display: inline-block;
     
+    width: auto;
+    height: auto;
+    
+    padding: 50px;
+    
+    font-size: 40px;
+    font-family: PoiretOne;
+    color: black;
 }
