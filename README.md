@@ -29,4 +29,4 @@ This is a present project for Lisa Camille, an artist that I very love and I sup
 
 ## GENERAL
 - [ ] Customize the scrollbar ❌
-- [ ] Make that scroll can only move to anchors ❌ ❌
+- [ ] Make that scroll can only move to anchors ❌
