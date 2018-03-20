@@ -10,7 +10,8 @@ var typed = new Typed('header div div p', {
 
 var typed = new Typed('header div div h1', {
     strings: ["Lisa Camille"],
-    typeSpeed: 150,
+    typeSpeed: 200,
+    startDelay: 750,
     loop: false,
     backSpeed: 15,
     backDelay: 3000,
