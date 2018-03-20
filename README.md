@@ -4,8 +4,9 @@ This is a present project for Lisa Camille, an artist that I very love and I sup
 # Tasks & goals 📋
 
 ## NAVIGATION BAR
-- [ ] Basic HTML skeleton
-- [ ] Basic CSS style
+- [x] Basic HTML skeleton
+- [x] Basic CSS style
+- [ ] Hover menus effect
 - [ ] Scroll effect
 
 ## HEADER
