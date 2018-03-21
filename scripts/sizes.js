@@ -25,6 +25,9 @@ function navbar_menu_size() {
     }
 }
 
-/*setInterval(navbar_menu_size, 1000);*/
+// Every .5s
+setInterval(navbar_menu_size, 500);
+// When the window is resized
 window.addEventListener('resize', navbar_menu_size);
+// When the site is loaded
 window.addEventListener('load', navbar_menu_size);
