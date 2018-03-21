@@ -24,8 +24,8 @@ This is a present project for Lisa Camille, an artist that I very love and I sup
 - [ ] Add a sound control button ❌
 
 ## PRESENTATION
-- [x] Basic HTML skeleton ❌
-- [x] Basic CSS style ❌
+- [x] Basic HTML skeleton ✔️
+- [x] Basic CSS style ✔️
 - [ ] Add a "learn more" button ❌
 - [ ] Add designs on the text box background ❌
 
