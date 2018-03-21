@@ -1,3 +1,4 @@
+/*SECTION PROPERTIES*/
 #section-presentation
 {
     display: flex;
@@ -7,7 +8,105 @@
     
     flex-flow: row nowrap;
     justify-content: center;
-    align-items: center;
     
     background-color: #f0f0f0;
+}
+
+/*LEFT SPACE*/
+#section-presentation > #s1-left
+{
+    display: flex;
+    
+    width: 50vw;    
+    height: 100vh;
+    
+    justify-content: center;
+    align-items: flex-end;
+    
+    background-image: url(../../img/profil.jpg);
+    background-position: 50% 25%;
+    background-repeat: no-repeat;
+    
+    background-color: red;
+}
+
+/*RIGHT SPACE*/
+#section-presentation > div:last-child
+{
+    display: flex;
+    
+    width: 50vw;    
+    height: 100vh;
+    
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*
+##################################################
+                    LEFT CONTENT
+##################################################
+*/
+
+/*TITLE H1*/
+#section-presentation h1
+{
+    display: inline-block;
+    
+    width: auto;
+    height: auto;
+    
+    margin-top: 10vh;
+    
+    font-size: 125px;
+    font-family: BlackSmith;
+    color: black;
+    text-transform: capitalize;
+}
+
+/*TEXT*/
+#section-presentation > div:last-child > p
+{
+    display: inline-block;
+    
+    width: 100%; 
+    height: auto;
+    
+    padding: 125px;
+    
+    font-size: 35px;
+    font-family: MyriadPro;
+    color: black;
+    text-transform: capitalize;
+    text-align: justify;
+}
+
+/*BUTTON*/
+#section-presentation > div:last-child > a
+{
+    display: flex;
+    
+    width: 100%; 
+    height: auto;
+    
+    justify-content: center;
+    
+    background-color: darkblue;
+}
+
+/*BUTTON TEXT CONTENT*/
+#section-presentation > div:last-child > a > p
+{
+    display: inline-block;
+    
+    width: auto;
+    height: auto;
+    
+    padding: 50px;
+    
+    font-size: 35px;
+    font-family: MyriadPro;
+    color: white;
+    text-transform: uppercase;
 }
