@@ -57,7 +57,7 @@
     width: auto;
     height: auto;
     
-    margin-top: 10vh;
+    margin-top: 15vh;
     
     font-size: 125px;
     font-family: BlackSmith;
@@ -74,6 +74,8 @@
     height: auto;
     
     padding: 125px;
+    
+    margin-top: 50px;
     
     font-size: 35px;
     font-family: MyriadPro;
