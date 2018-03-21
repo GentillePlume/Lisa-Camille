@@ -2,6 +2,7 @@
 nav
 {
     display: flex;
+    position: absolute;
     
     width: 100vw;
     height: 10vh;
@@ -12,16 +13,20 @@ nav
     align-items: center;
     
     background-color: white;
+    
+    transition: all .1s ease-in-out 0s;
 }
 
 .scrolled
 {
     position: fixed;
     top: 0;
+    
+    background-color: rgba(255,255,255,.95);
 }
 
 /*LOGO SPACE*/
-nav div
+nav  > div
 {
     display: flex;
     
@@ -33,7 +38,7 @@ nav div
 }
 
 /*LOGO TEXT CONTENT*/
-nav div p
+nav > div > p
 {
     display: inline-block;
     
