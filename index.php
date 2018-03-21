@@ -37,9 +37,6 @@
         <!--HEADER-->
         <?php include 'elements/header.html'?>
         
-        <!--NAVIGATION BAR-->
-        <?php include 'elements/navbar.html'?>
-        
         <!--PRESENTATION-->
         <?php include 'elements/presentation.html'?>
         
