@@ -5,6 +5,7 @@ nav
     position: absolute;
     
     width: 100vw;
+    
     height: 10vh;
     
     flex-flow: row nowrap;
@@ -26,7 +27,7 @@ nav
 }
 
 /*LOGO SPACE*/
-nav  > div
+nav > div
 {
     display: flex;
     
@@ -47,7 +48,7 @@ nav > div > p
     
     margin: auto;
     
-    font-size: 110px;
+    font-size: 8vh;
     font-family: LoveHewits;
     color: #009dff;
 }
