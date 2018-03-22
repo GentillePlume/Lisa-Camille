@@ -43,9 +43,6 @@
         <!--MUSIC-->
         <?php include 'elements/music.html'?>
         
-        <!--FOOTER-->
-        <?php include 'elements/footer.html'?>
-        
         <!--########## SCRIPTS ##########-->
         
         <!--RESOURCES-->
