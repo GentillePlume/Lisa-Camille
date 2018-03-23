@@ -57,7 +57,7 @@
     width: auto;
     height: auto;
     
-    margin-top: 15vh;
+    margin-top: 11vh;
     
     font-size: 125px;
     font-family: BlackSmith;
@@ -73,11 +73,11 @@
     width: 100%; 
     height: auto;
     
-    padding: 125px;
+    padding: 0 125px;
     
-    margin-top: 50px;
+    margin-top: 100px;
     
-    font-size: 35px;
+    font-size: 30px;
     font-family: MyriadPro;
     color: black;
     text-transform: capitalize;
