@@ -33,10 +33,11 @@ This is a present project for Lisa Camille, an artist that I very love and I sup
 - [ ] Add designs on the text box background ❌
 
 ## STATS
-- [x] Basic HTML skeleton ❌
-- [x] Basic CSS style ❌
+- [x] Basic HTML skeleton ✔️
+- [x] Basic CSS style ✔️
 - [x] Add the Youtube logo ✔️
-- [ ] Develop a script to get the youtube channel data (number of subscribers and views) ⌛️
+- [ ] Add an hover effect -> apparition of the data description (example : "subscribers") ✔️
+- [ ] Develop a script to get the youtube channel data) ❌
 
 ## SCRIPTS
 - [x] Comment and clean navbar.js ✔️
