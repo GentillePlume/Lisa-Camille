@@ -4,12 +4,32 @@ This is a present project for Lisa Camille, an artist that I very love and I sup
 # Content preview
 
 - Header
+    - Title ✔️
+    - Description ✔️
+    - Video background ✔️
+    - Background particles overlay ❔⌛️
+    - Sound volume controller ⌛️
 - Navigation bar
+    - Logo ✔️
+    - Menus ✔️
+        - Home
+        - Presentation
+        - Music ⌛️
+        - News ⌛️
+        - Contact ⌛️
 - Presentation section
-- Statistics section
-- Music section
-- News section
-- Contact section
+    - Profil image ✔️
+    - Short text ✔️
+    - Other informations with icons ⌛️
+- Statistics section ✔️
+    - Youtube logo ✔️
+    - View number ✔️
+    - Subscribers number ✔️
+    - Videos number ✔️
+    - Creations number ✔️
+- Music section ❌
+- News section ❌
+- Contact section ❌
 
 ## Header
 ![Lisa Camille](https://i.imgur.com/1EH6iso.jpg)
