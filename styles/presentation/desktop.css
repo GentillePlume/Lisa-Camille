@@ -9,7 +9,7 @@
     flex-flow: row nowrap;
     justify-content: center;
     
-    background-color: #f0f0f0;
+    background-color: #ffffff;
 }
 
 /*LEFT SPACE*/
@@ -27,7 +27,13 @@
     background-position: 50% 25%;
     background-repeat: no-repeat;
     
-    background-color: red;
+    transition: all .3s ease-in-out 0s;
+}
+
+/*LEFT SPACE WHEN HOVERED*/
+#section-presentation > #s1-left:hover
+{
+    background-image: url(../../img/profil2.jpg);
 }
 
 /*RIGHT SPACE*/
@@ -89,26 +95,64 @@
 {
     display: flex;
     
-    width: 100%; 
-    height: auto;
+    width: 35%; 
+    height: 100px;
+    
+    margin-bottom: 11vh;
     
     justify-content: center;
+    align-items: center;
     
     background-color: darkblue;
+    
+    transition: all .3s ease-in-out 0s;
+    
+}
+
+/*BUTTON WHEN HOVERED*/
+#section-presentation > div:last-child > a:hover
+{
+    width: 100px; 
+    height: 100px;
+    
+    border-radius: 100px;
+}
+
+/*BUTTON ICON*/
+#section-presentation > div:last-child > a > i
+{
+    display: none;
+    
+    width: auto;
+    height: auto;
+    
+    font-size: 50px;
+    color: white;
+}
+
+/*BUTTON ICON WHEN BUTTON IS HOVERED*/
+#section-presentation > div:last-child > a:hover > i
+{
+    display: inline-block;
 }
 
 /*BUTTON TEXT CONTENT*/
 #section-presentation > div:last-child > a > p
 {
     display: inline-block;
+    position: absolute;
     
     width: auto;
     height: auto;
     
-    padding: 50px;
-    
-    font-size: 35px;
+    font-size: 30px;
     font-family: MyriadPro;
     color: white;
     text-transform: uppercase;
+}
+
+/*BUTTON TEXT CONTENT WHEN BUTTON IS HOVERED*/
+#section-presentation > div:last-child > a:hover > p
+{
+    display: none;
 }
