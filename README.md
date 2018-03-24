@@ -3,6 +3,14 @@ This is a present project for Lisa Camille, an artist that I very love and I sup
 
 # Content preview
 
+- Header
+- Navigation bar
+- Presentation section
+- Statistics section
+- Music section
+- News section
+- Contact section
+
 ## Header
 ![Lisa Camille](https://i.imgur.com/1EH6iso.jpg)
 
