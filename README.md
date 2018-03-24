@@ -1,6 +1,9 @@
 # Lisa Camille website
 This is a present project for Lisa Camille, an artist that I very love and I support.
 
+# Content preview
+
+## Header
 ![Lisa Camille](https://i.imgur.com/1EH6iso.jpg)
 
 # Tasks & goals 📋
