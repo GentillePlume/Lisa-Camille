@@ -36,7 +36,7 @@ This is a present project for Lisa Camille, an artist that I very love and I sup
 - [x] Basic HTML skeleton ✔️
 - [x] Basic CSS style ✔️
 - [x] Add the Youtube logo ✔️
-- [ ] Add an hover effect -> apparition of the data description (example : "subscribers") ✔️
+- [ ] Add an hover effect on data -> apparition of the data description (example : "subscribers") ❌
 - [ ] Add an apparition effect when content is shown ❌
 - [ ] Develop a script to get the youtube channel data) ❌
 
