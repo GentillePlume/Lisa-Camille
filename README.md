@@ -13,9 +13,7 @@ This is a present project for Lisa Camille, an artist that I very love and I sup
 - [x] Add the navbar in presentation.html ✔️
 - [x] When the navigation bar is scrolled, decrease its background opacity of -5% ✔️
 - [x] Make a correction on the 'p' size ✔️
-- [ ] Fix the logo size to the navbar size ❌
-- [ ] Add an icon animation for each menu hovered ❌
-- [ ] Link menu to section with a smooth scroll  ❌
+- [ ] Link menu to section with a smooth scroll ⌛️
 
 ## HEADER
 - [x] Basic HTML skeleton ✔️
@@ -37,7 +35,7 @@ This is a present project for Lisa Camille, an artist that I very love and I sup
 ## STATS
 - [x] Basic HTML skeleton ❌
 - [x] Basic CSS style ❌
-- [x] Add the Youtube logo 
+- [x] Add the Youtube logo ✔️
 - [ ] Develop a script to get the youtube channel data (number of subscribers and views) ⌛️
 
 ## SCRIPTS
