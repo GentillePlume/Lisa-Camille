@@ -62,8 +62,6 @@
     
     justify-content: center;
     align-items: flex-end;
-    
-    background-color: pink;
 }
 
 /*TITLE H1*/
@@ -78,8 +76,6 @@
     font-family: BlackSmith;
     color: black;
     text-transform: capitalize;
-    
-    background-color: purple;
 }
 
 /*TEXT*/
