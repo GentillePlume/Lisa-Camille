@@ -5,7 +5,7 @@ nav
     position: absolute;
     
     width: 100vw;
-    
+
     height: 10vh;
     
     flex-flow: row nowrap;
@@ -103,8 +103,6 @@ nav li p
     
     width: auto;
     height: auto;
-    
-    padding: 50px;
     
     font-size: 40px;
     font-family: PoiretOne;
