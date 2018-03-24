@@ -20,9 +20,6 @@
     width: 50vw;    
     height: 100vh;
     
-    justify-content: center;
-    align-items: flex-end;
-    
     background-image: url(../../img/profil.jpg);
     background-position: 50% 25%;
     background-repeat: no-repeat;
