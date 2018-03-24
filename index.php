@@ -24,6 +24,9 @@
         <!--PRESENTATION-->
         <link rel="stylesheet" type="text/css" href="styles/presentation/desktop.css">
         
+        <!--STATS-->
+        <link rel="stylesheet" type="text/css" href="styles/stats/desktop.css">
+        
         <!--MUSIC-->
         <link rel="stylesheet" type="text/css" href="styles/music/desktop.css">
     </head>
@@ -39,6 +42,9 @@
         
         <!--PRESENTATION-->
         <?php include 'elements/presentation.html'?>
+        
+        <!--STATS-->
+        <?php include 'elements/stats.html'?>
         
         <!--MUSIC-->
         <?php include 'elements/music.html'?>
