@@ -1,0 +1,121 @@
+/*SECTION PROPERTIES*/
+#section-stats
+{
+    display: flex;
+    
+    width: 100vw;
+    height: 10vh;
+    
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    
+    background-color: #FF0000;
+}
+
+/*LOGO*/
+#section-stats > svg
+{
+    display: inline-block;
+    
+    width: 10%;
+    height: 100%;
+}
+
+/*ALL BOXES*/
+#section-stats div
+{
+    display: flex;
+    
+    width: 17%;
+    height: 100%;
+    
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/*ICONS BOX*/
+#section-stats > div > div:first-child
+{
+    display: flex;
+    
+    width: 25%;
+    height: 100%;
+    
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/*ALL ICONS*/
+#section-stats i
+{
+    display: inline-block;
+    
+    width: auto;
+    height: auto;
+    
+    font-size: 3vw;
+    
+    color: white;
+    
+    transition: all .3s ease-in-out 0s;
+}
+
+/*TEXTS BOX*/
+#section-stats > div > div:last-child
+{
+    display: flex;
+    
+    width: 75%;
+    height: 100%;
+    
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/*ALL TEXTS*/
+#section-stats p
+{
+    display: inline-block;
+    
+    width: auto;
+    height: auto;
+    
+    font-size: 3vw;
+    font-family: lobster;
+    
+    color: white;
+    
+    transition: all .3s ease-in-out 0s;
+}
+
+/*INFO TEXTS*/
+#section-stats > div > div > p:last-child
+{
+    display: none;
+}
+
+/*INFO TEXTS WHEN BOX IS HOVERED*/
+#section-stats > div:hover > div > p:last-child
+{
+    display: inline-block;
+}
+
+/*CHANNEL STATS WHEN BOX IS HOVERED*/
+#section-stats > div:hover > div > p
+{
+    display: none;
+}
+
+#section-stats separator
+{
+    display: inline-block;
+    
+    width: 1px;
+    height: 50%;
+    
+    background-color: white;
+}
