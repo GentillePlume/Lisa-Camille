@@ -76,8 +76,10 @@ This is a present project for Lisa Camille, an artist that I very love and I sup
 - [ ] Open a map when the localization is hovered ❌
 
 ## QUOTE
-- [ ] Basic HTML skeleton ❌
-- [ ] Basic CSS style ❌
+- [x] Basic HTML skeleton ✔️
+- [x] Basic CSS style ✔️
+- [ ] Add the text content ❌
+- [ ] Develop a script to rotate the quotes ❌
 
 ## MUSIC
 - [x] Basic HTML skeleton ✔️
