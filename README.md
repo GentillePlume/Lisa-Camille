@@ -50,7 +50,7 @@ This is a present project for Lisa Camille, an artist that I very love and I sup
 - [x] Basic CSS style ✔️
 - [x] Hover menus effect ✔️
 - [x] Scroll effect ✔️
-- [x] Add the navbar in presentation.html ✔️
+- [x] Add the navbar in the presentation section screen ✔️
 - [x] When the navigation bar is scrolled, decrease its background opacity of -5% ✔️
 - [x] Make a correction on the 'p' size ✔️
 - [ ] Add an indicator of the viewed section ❌
@@ -71,9 +71,12 @@ This is a present project for Lisa Camille, an artist that I very love and I sup
 - [x] Add an hover effect on profil image ✔️
 - [x] Add an hover effect on the button ✔️
 - [x] Add additional content with icon ✔️
-- [ ] Add designs on the text box background ❌
 - [ ] Add the parallax effect on the profil image ❌
 - [ ] Open a map when the localization is hovered ❌
+
+## QUOTE
+- [ ] Basic HTML skeleton ❌
+- [ ] Basic CSS style ❌
 
 ## STATS
 - [x] Basic HTML skeleton ✔️
