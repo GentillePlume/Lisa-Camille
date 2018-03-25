@@ -24,11 +24,15 @@
         <!--PRESENTATION-->
         <link rel="stylesheet" type="text/css" href="styles/presentation/desktop.css">
         
-        <!--STATS-->
-        <link rel="stylesheet" type="text/css" href="styles/stats/desktop.css">
+        <!--QUOTE-->
+        <link rel="stylesheet" type="text/css" href="styles/quote/desktop.css">
         
         <!--MUSIC-->
         <link rel="stylesheet" type="text/css" href="styles/music/desktop.css">
+        
+        <!--STATS-->
+        <link rel="stylesheet" type="text/css" href="styles/stats/desktop.css">        
+        
     </head>
 
 <!--####################################################################################################-->
