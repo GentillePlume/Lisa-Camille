@@ -69,7 +69,7 @@ This is a present project for Lisa Camille, an artist that I very love and I sup
 - [x] Add the Youtube logo ✔️
 - [ ] Add an hover effect on data -> apparition of the data description (example : "subscribers") ❌
 - [ ] Add an apparition effect when content is shown ❌
-- [ ] Develop a script to get the youtube channel data) ❌
+- [ ] Develop a script to get the youtube channel stats ❌
 
 ## SCRIPTS
 - [x] Comment and clean navbar.js ✔️
