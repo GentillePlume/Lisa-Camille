@@ -14,22 +14,6 @@
     z-index: 0;
 }
 
-/*IMAGES*/
-#section-music img
-{
-    display: inline-block;
-    
-    width: 100px;
-    height: auto;
-}
-
-/*ROW TITLES*/
-#section-music h2
-{
-    font-size: 40px;
-    font-family: quicksand;
-}
-
 /*TOP SPACE (ALL VIDEOS)*/
 #section-music > div:first-child
 {
@@ -77,6 +61,22 @@
 
 /*BOTTOM RAW TITLE BOX PARTICULARITY*/
 #section-music > div:last-child > div:first-child {background-color: #cecece}
+
+/*IMAGES*/
+#section-music img
+{
+    display: inline-block;
+    
+    width: 100px;
+    height: auto;
+}
+
+/*ROW TITLES*/
+#section-music h2
+{
+    font-size: 40px;
+    font-family: quicksand;
+}
 
 /*VIDEOS SPACE*/
 #section-music > div:first-child > div:last-child,
