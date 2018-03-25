@@ -76,6 +76,7 @@ This is a present project for Lisa Camille, an artist that I very love and I sup
 - [x] Add an hover effect on data -> apparition of the data description (example : "subscribers") ✔️
 - [x] Add separators between divs ✔️
 - [x] Include the stats section in the music section ✔️
+- [ ] Link the Youtube logo to Lisa's channel ❌
 - [ ] Develop a script to get the youtube channel stats ⌛️❌
 
 ## SCRIPTS
