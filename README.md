@@ -44,7 +44,8 @@ This is a present project for Lisa Camille, an artist that I very love and I sup
 - [x] Add the navbar in presentation.html ✔️
 - [x] When the navigation bar is scrolled, decrease its background opacity of -5% ✔️
 - [x] Make a correction on the 'p' size ✔️
-- [ ] Link menu to section with a smooth scroll ⌛️
+- [ ] Add an indicator of the viewed section ❌
+- [ ] Link menu to section with a smooth scroll ⌛️❌
 
 ## HEADER
 - [x] Basic HTML skeleton ✔️
@@ -60,9 +61,10 @@ This is a present project for Lisa Camille, an artist that I very love and I sup
 - [x] Add a "learn more" button ✔️
 - [x] Add an hover effect on profil image ✔️
 - [x] Add an hover effect on the button ✔️
-- [ ] Add additional content with icon ❌
+- [x] Add additional content with icon ✔️
 - [ ] Add designs on the text box background ❌
 - [ ] Add the parallax effect on the profil image ❌
+- [ ] Open a map when the localization is hovered ❌
 
 ## STATS
 - [x] Basic HTML skeleton ✔️
@@ -70,8 +72,8 @@ This is a present project for Lisa Camille, an artist that I very love and I sup
 - [x] Add the Youtube logo ✔️
 - [x] Add an hover effect on data -> apparition of the data description (example : "subscribers") ✔️
 - [x] Add separators between divs ✔️
-- [ ] Include the stats section in the music section ❌
-- [ ] Develop a script to get the youtube channel stats ⌛️
+- [x] Include the stats section in the music section ✔️
+- [ ] Develop a script to get the youtube channel stats ⌛️❌
 
 ## SCRIPTS
 - [x] Comment and clean navbar.js ✔️
@@ -81,4 +83,4 @@ This is a present project for Lisa Camille, an artist that I very love and I sup
 ## GENERAL
 - [ ] Customize the scrollbar ❌
 - [ ] Make that scroll can only move to anchors ❌
-- [ ] Integrate all used images in the code (svg images) ⌛️
+- [ ] Integrate all used images in the code (svg images) ⌛️❌
