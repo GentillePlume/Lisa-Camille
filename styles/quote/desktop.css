@@ -5,5 +5,17 @@
     width: 100vw;
     height: 10vh;
     
-    background-color: blue;
+    background-color: rgba(0, 69, 255, 0.5);
+}
+
+#section-quote span
+{
+    display: inline-block;
+    
+    width: auto;
+    height: auto;
+    
+    font-size: 50px;
+    font-family: poiretone;
+    color: white;
 }
