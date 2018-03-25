@@ -23,7 +23,7 @@ This is a present project for Lisa Camille, an artist that I very love and I sup
     - Other informations with icons ⌛️
 - Music section ❌
     - All videos row ❌
-        - Row logo and title
+        - Row logo and title ❌
         - Youtube iframe with all videos in it ✔️
     - Compositions row ❌
         - Row logo and title ❌
