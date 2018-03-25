@@ -43,6 +43,9 @@
         <!--PRESENTATION-->
         <?php include 'elements/presentation.html'?>
         
+        <!--QUOTE-->
+        <?php include 'elements/quote.html'?>
+        
         <!--MUSIC-->
         <?php include 'elements/music.html'?>
         
