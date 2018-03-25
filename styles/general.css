@@ -19,3 +19,8 @@
 
 /* Remove the horizontal scrollbar */
 body {overflow-x: hidden}
+
+.displayed-ib
+{
+    display: inline-block;
+}
