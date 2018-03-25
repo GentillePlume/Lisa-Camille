@@ -43,9 +43,6 @@
         <!--PRESENTATION-->
         <?php include 'elements/presentation.html'?>
         
-        <!--STATS-->
-        <?php include 'elements/stats.html'?>
-        
         <!--MUSIC-->
         <?php include 'elements/music.html'?>
         
