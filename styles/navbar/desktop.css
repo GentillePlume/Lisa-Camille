@@ -16,6 +16,8 @@ nav
     background-color: white;
     
     transition: all .1s ease-in-out 0s;
+    
+    z-index: 100;
 }
 
 .scrolled
