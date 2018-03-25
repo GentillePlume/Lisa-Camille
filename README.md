@@ -21,6 +21,7 @@ This is a present project for Lisa Camille, an artist that I very love and I sup
     - Profil image ✔️
     - Short text ✔️
     - Other informations with icons ⌛️
+    - Quote space ❌
 - Music section ❌
     - All videos row ❌
         - Row logo and title ❌
