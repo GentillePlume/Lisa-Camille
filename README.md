@@ -54,6 +54,7 @@ This is a present project for Lisa Camille, an artist that I very love and I sup
 - [x] Add the navbar in the presentation section screen ✔️
 - [x] When the navigation bar is scrolled, decrease its background opacity of -5% ✔️
 - [x] Make a correction on the 'p' size ✔️
+- [ ] Add a shadow effect when the navbar is scrolled ❌
 - [ ] Add an indicator of the viewed section ❌
 - [ ] Link menu to section with a smooth scroll ⌛️❌
 
