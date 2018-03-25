@@ -78,7 +78,8 @@ This is a present project for Lisa Camille, an artist that I very love and I sup
 ## QUOTE
 - [x] Basic HTML skeleton ✔️
 - [x] Basic CSS style ✔️
-- [ ] Add the text content ❌
+- [x] Add the text content ✔️
+- [ ] Add designs in background ❌
 - [ ] Develop a script to rotate the quotes ❌
 
 ## MUSIC
