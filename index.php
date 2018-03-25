@@ -24,8 +24,8 @@
         <!--PRESENTATION-->
         <link rel="stylesheet" type="text/css" href="styles/presentation/desktop.css">
         
-        <!--QUOTE-->
-        <link rel="stylesheet" type="text/css" href="styles/quote/desktop.css">
+        <!--QUOTES-->
+        <link rel="stylesheet" type="text/css" href="styles/quotes/desktop.css">
         
         <!--MUSIC-->
         <link rel="stylesheet" type="text/css" href="styles/music/desktop.css">
@@ -48,7 +48,7 @@
         <?php include 'elements/presentation.html'?>
         
         <!--QUOTE-->
-        <?php include 'elements/quote.html'?>
+        <?php include 'elements/quotes.html'?>
         
         <!--MUSIC-->
         <?php include 'elements/music.html'?>
