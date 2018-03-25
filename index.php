@@ -46,6 +46,9 @@
         <!--MUSIC-->
         <?php include 'elements/music.html'?>
         
+        <!--STATS-->
+        <?php include 'elements/stats.html'?>
+        
         <!--########## SCRIPTS ##########-->
         
         <!--RESOURCES-->
