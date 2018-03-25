@@ -62,6 +62,7 @@ This is a present project for Lisa Camille, an artist that I very love and I sup
 - [x] Add an hover effect on the button ✔️
 - [ ] Add additional content with icon ❌
 - [ ] Add designs on the text box background ❌
+- [ ] Add the parallax effect on the profil image ❌
 
 ## STATS
 - [x] Basic HTML skeleton ✔️
@@ -69,6 +70,7 @@ This is a present project for Lisa Camille, an artist that I very love and I sup
 - [x] Add the Youtube logo ✔️
 - [x] Add an hover effect on data -> apparition of the data description (example : "subscribers") ✔️
 - [x] Add separators between divs ✔️
+- [ ] Include the stats section in the music section ❌
 - [ ] Add a glow effect when the youtube logo is hovered ❌
 - [ ] Add an apparition effect when content is shown ❌
 - [ ] Develop a script to get the youtube channel stats ⌛️
