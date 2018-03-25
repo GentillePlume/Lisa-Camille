@@ -21,13 +21,19 @@ This is a present project for Lisa Camille, an artist that I very love and I sup
     - Profil image ✔️
     - Short text ✔️
     - Other informations with icons ⌛️
-- Statistics section ✔️
-    - Youtube logo ✔️
-    - View number ✔️
-    - Subscribers number ✔️
-    - Videos number ✔️
-    - Creations number ✔️
 - Music section ❌
+    - All videos row ❌
+        - Row logo and title
+        - Youtube iframe with all videos in it ✔️
+    - Compositions row ❌
+        - Row logo and title ❌
+        - Youtube iframes for each composition ✔️
+    - Statistics ✔️
+        - Youtube logo ✔️
+        - View number ✔️
+        - Subscribers number ✔️
+        - Videos number ✔️
+        - Creations number ✔️
 - News section ❌
 - Contact section ❌
 
