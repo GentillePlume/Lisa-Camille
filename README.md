@@ -79,6 +79,14 @@ This is a present project for Lisa Camille, an artist that I very love and I sup
 - [ ] Basic HTML skeleton ❌
 - [ ] Basic CSS style ❌
 
+## MUSIC
+- [x] Basic HTML skeleton ✔️
+- [x] Basic CSS style ✔️
+- [x] Create 2 row (1. All videos | 2. Creations) ✔️
+- [x] Add iframes ✔️
+- [x] Add icons & titles ✔️
+- [ ] Add a bounce animation on icon when title box is hovered ❌
+
 ## STATS
 - [x] Basic HTML skeleton ✔️
 - [x] Basic CSS style ✔️
