@@ -4,25 +4,28 @@
 // header section is left
 // ############################################################
 
-$(window).on('scroll', function() {
-    
+function navbar()
+{
     // Get the header size
-    var headersize = $('header').height();
-    /* console.log("headersize = " + headersize); */    
+    var headersize = $('header').height(); 
     
     // From the moment when the header size equivalent 
     // is scrolled,  add the class "scrolled" to the
     // navigation bar
-    if ($(window).scrollTop() > headersize) {
+    if ($(window).scrollTop() > headersize)
+    {
         $('nav').addClass('scrolled');
-        /* console.log("Added class 'scrolled'"); */
     }
+    
     // If the header size equivalent isn't scrolled,
     // the class "scrolled" is removed from the navigation bar
     else
     {
         $('nav').removeClass('scrolled');
-        /* console.log("Removed class 'scrolled'"); */
-        /* console.log("scrollTop : " + $(window).scrollTop() + "px"); */
     }
-})
+}
+
+// Every .5s
+setInterval(navbar, 500);
+// When user is scrolling
+$(window).on('scroll', navbar);
