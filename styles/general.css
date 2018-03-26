@@ -24,3 +24,8 @@ body {overflow-x: hidden}
 {
     display: inline-block;
 }
+
+.undisplayed
+{
+    display: none;
+}
