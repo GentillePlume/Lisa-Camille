@@ -4,7 +4,7 @@
     display: flex;
     
     width: 100vw;
-    height: 80vh;
+    height: calc(80vh + 1px);
     
     flex-flow: column nowrap;
     justify-content: flex-end;
