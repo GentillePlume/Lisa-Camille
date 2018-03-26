@@ -48,12 +48,13 @@
     flex-flow: column;
     justify-content: center;
     align-items: center;
-    
-    background-color: #e2e2e2;
 }
 
-/*BOTTOM RAW TITLE BOX PARTICULARITY*/
-#section-music > div:last-child > div:last-child {background-color: #cecece}
+/*TOP RAW TITLE BOX BACKGROUND COLOR*/
+#section-music > div:first-child > div:first-child {background-color: #d89fe8}
+
+/*BOTTOM RAW TITLE BOX BACKGROUND COLOR*/
+#section-music > div:last-child > div:last-child {background-color: #a2e89b}
 
 /*IMAGES*/
 #section-music img
@@ -101,8 +102,11 @@
     align-items: center;
 }
 
-/*BOTTOM VIDEO SPACE PARTICULARITY*/
-#section-music > div:last-child > div:last-child {background-color: #dedede}
+/*TOP VIDEO SPACE BACKGROUND COLOR*/
+#section-music > div:first-child > div:last-child {background-color: #fae8ff}
+
+/*BOTTOM VIDEO SPACE BACKGROUND COLOR*/
+#section-music > div:last-child > div:first-child {background-color: #daffd6}
 
 /*iframes*/
 #section-music iframe
