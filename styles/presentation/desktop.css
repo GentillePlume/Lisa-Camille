@@ -42,7 +42,7 @@
     height: 100%;
     
     flex-flow: column nowrap;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
 }
 
@@ -51,32 +51,6 @@
                     LEFT CONTENT
 ##################################################
 */
-
-/*TITLE H1 BOX*/
-#section-presentation > div:last-child > div
-{
-    display: flex;
-    
-    width: 100%;
-    height: 25vh;
-    
-    justify-content: center;
-    align-items: flex-end;
-}
-
-/*TITLE H1*/
-#section-presentation h1
-{
-    display: inline-block;
-    
-    width: auto;
-    height: auto;
-    
-    font-size: 10vh; /*125px*/
-    font-family: BlackSmith;
-    color: black;
-    text-transform: capitalize;
-}
 
 /*TEXT*/
 #section-presentation > div:last-child > p
