@@ -1,22 +1,22 @@
-function quotes_rotation()
-{
+function quotes_rotation() {
 
-// Get the quotes number stored in "quotes_number"
-var quotes_number = $('#section-quotes span').length;
-console.log("Quotes number = " + quotes_number);
+    // Get the quotes number stored in "quotes_number"
+    var quotes_number = $('#section-quotes span').length;
+    console.log("Quotes number = " + quotes_number);
 
-// Select the quotes
-var quotes = $('#section-quotes span');
-console.log("Quotes section children = " + quotes);
+    // Select the quotes
+    var quotes = $('#section-quotes span');
+    console.log("Quotes selection = " + quotes);
 
-// ...
-for (i = 0; i < quotes_number; i++)
-    {
-        quotes[i].classList.add("displayed-ib");
+    // ...
+    for (i = 0; i < quotes_number; i++) {
+        quotes[i].addClass("displayed-ib");
         console.log("quote " + i + " displayed !");
-        
-        setTimeout(quotes[i].classList.remove("displayed-ib"), 3000);
-        console.log("quote " + i + " undisplayed !");
+
+        setTimeout(function () {
+                quotes[i].removeClass("displayed-ib");
+                console.log("quote " + i + " undisplayed !");
+        }, 5000);
     }
 }
 
