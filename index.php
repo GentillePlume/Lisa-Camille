@@ -31,7 +31,10 @@
         <link rel="stylesheet" type="text/css" href="styles/music/desktop.css">
         
         <!--STATS-->
-        <link rel="stylesheet" type="text/css" href="styles/stats/desktop.css">        
+        <link rel="stylesheet" type="text/css" href="styles/stats/desktop.css">
+        
+        <!--FOOTER-->
+        <link rel="stylesheet" type="text/css" href="styles/footer/desktop.css">     
         
     </head>
 
@@ -55,6 +58,9 @@
         
         <!--STATS-->
         <?php include 'elements/stats.html'?>
+        
+        <!--FOOTER-->
+        <?php include 'elements/footer.html'?>
         
         <!--########## SCRIPTS ##########-->
         
