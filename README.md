@@ -73,6 +73,7 @@ This is a present project for Lisa Camille, an artist that I very love and I sup
 - [x] Add an hover effect on profil image ✔️
 - [x] Add an hover effect on the button ✔️
 - [x] Add additional content with icon ✔️
+- [ ] Remove the section title ❌
 - [ ] Add the parallax effect on the profil image ❌
 - [ ] Open a map when the localization is hovered ❌
 
