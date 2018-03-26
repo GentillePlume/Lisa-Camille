@@ -106,6 +106,12 @@ This is a present project for Lisa Camille, an artist that I very love and I sup
 - [ ] Link the Youtube logo to Lisa's channel ❌
 - [ ] Develop a script to get the youtube channel stats ⌛️❌
 
+## FOOTER
+- [x] Basic HTML skeleton ✔️
+- [x] Basic CSS style ✔️
+- [x] Add the content ✔️
+- [x] Add an animation who show a secret content when footer is hovered since minimum 1s ✔️
+
 ## SCRIPTS
 - [x] Comment and clean navbar.js ✔️
 - [x] Comment and clean sizes.js ✔️
