@@ -94,6 +94,7 @@ This is a present project for Lisa Camille, an artist that I very love and I sup
 - [x] Add iframes ✔️
 - [x] Add icons & titles ✔️
 - [x] Add a bounce animation on icon when title box is hovered ✔️
+- [ ] Make the backgrounds gradient side to side ❌
 - [ ] Make the section responsive for the desktop version ❌
 
 ## STATS
