@@ -5,13 +5,14 @@
     width: 100vw;
     height: 10vh;
     
-    background-color: rgba(0, 69, 255, 0.5);
+    justify-content: center;
+    align-items: center;
+    
+    background-color: rgba(0, 69, 255, 0.9);
 }
 
 #section-quotes span
 {
-    display: none;
-    
     width: auto;
     height: auto;
     
