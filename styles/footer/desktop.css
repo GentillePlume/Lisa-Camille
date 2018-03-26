@@ -1,0 +1,59 @@
+/*SECTION PROPERTIES*/
+#section-footer
+{
+    display: flex;
+    
+    width: 100vw;
+    height: 5vh;
+    
+    justify-content: center;
+    align-items: center;
+    
+    background-color: black;
+}
+
+/*TEXT CONTENT*/
+#section-footer p
+{
+    display: inline-block;
+    
+    width: auto;
+    height: auto;
+    
+    font-size: 20px;
+    font-family: myriadpro;
+    color: white;
+}
+
+/*TEXT CONTENT*/
+#section-footer p:first-child
+{
+    animation-name: fadeInDown;
+}
+
+/*TEXT CONTENT - WHEN FOOTER IS HOVERED*/
+#section-footer:hover p:first-child
+{
+    animation-name: fadeOutUp;
+    animation-delay: 1s;
+}
+
+/*SURPRISE TEXT CONTENT*/
+#section-footer p:last-child
+{
+    position: absolute;
+    animation-name: fadeOutDown;
+}
+
+/*SURPRISE TEXT CONTENT - WHEN FOOTER IS HOVERED*/
+#section-footer:hover p:last-child
+{
+    animation-name: fadeInUp;
+    animation-delay: 1s;
+}
+
+/*LINK*/
+#section-footer a
+{
+    color: aqua;
+}
