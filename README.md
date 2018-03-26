@@ -77,7 +77,7 @@ This is a present project for Lisa Camille, an artist that I very love and I sup
 - [ ] Add the parallax effect on the profil image ❌
 - [ ] Open a map when the localization is hovered ❌
 
-## QUOTE
+## QUOTES
 - [x] Basic HTML skeleton ✔️
 - [x] Basic CSS style ✔️
 - [x] Add the text content ✔️
