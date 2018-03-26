@@ -11,12 +11,15 @@
     background-color: rgba(0, 69, 255, 0.9);
 }
 
+#section-quotes p,
 #section-quotes span
 {
     width: auto;
     height: auto;
     
     font-size: 50px;
-    font-family: poiretone;
     color: white;
 }
+
+#section-quotes p {font-family: hamilton}
+#section-quotes span {font-family: aroundthebooks}
