@@ -81,10 +81,8 @@ This is a present project for Lisa Camille, an artist that I very love and I sup
 - [x] Basic HTML skeleton ✔️
 - [x] Basic CSS style ✔️
 - [x] Add the text content ✔️
-- [ ] Add designs in background ❌
-- [ ] Develop a script to rotate the quotes ❌
-- [ ] Make the script run from the section is loaded ❌
-- [ ] Add the parallax effect on the background ❌
+- [x] Add designs in background ❌
+- [ ] Develop a script to rotate the quotes autmatically ❌
 
 ## MUSIC
 - [x] Basic HTML skeleton ✔️
