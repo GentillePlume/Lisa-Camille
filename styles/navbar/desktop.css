@@ -6,7 +6,7 @@ nav
     
     width: 100vw;
 
-    height: 10vh;
+    height: calc(10vh + 1px);
     
     flex-flow: row nowrap;
     
