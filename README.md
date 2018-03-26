@@ -42,7 +42,7 @@ This is a present project for Lisa Camille, an artist that I very love and I sup
 ![Lisa Camille](https://i.imgur.com/1EH6iso.jpg)
 
 ## Présentation section
-![Lisa Camille](https://i.imgur.com/p1TKBEy.jpg)
+![Lisa Camille](https://i.imgur.com/1e58Ojh.jpg)
 
 ## Music section
 ![Lisa Camille](https://i.imgur.com/qhQ6vej.png)
