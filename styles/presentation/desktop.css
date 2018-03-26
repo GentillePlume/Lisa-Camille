@@ -4,7 +4,7 @@
     display: flex;
     
     width: 100vw;
-    height: 90vh;
+    height: calc(90vh + 1px);
     
     flex-flow: row nowrap;
     justify-content: center;
