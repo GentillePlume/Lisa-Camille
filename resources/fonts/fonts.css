@@ -72,3 +72,13 @@
     font-family: LoveHewits;
     src: url('Love Hewits.ttf');
 }
+
+@font-face {
+    font-family: AroundTheBooks;
+    src: url('go around the books.ttf');
+}
+
+@font-face {
+    font-family: Hamilton;
+    src: url('hamilton.ttf');
+}
