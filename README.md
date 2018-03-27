@@ -123,6 +123,7 @@ This is a present project for Lisa Camille, an artist that I very love and I sup
 - [x] Comment and clean typedtext.js ✔️
 
 ## GENERAL
+- [ ] Correct the size issue of all sections ❌
 - [ ] Customize the scrollbar ❌
 - [ ] Make that scroll can only move to anchors ❌
 - [ ] Integrate all used images in the code (svg images) ⌛️❌
