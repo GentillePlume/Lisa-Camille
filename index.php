@@ -75,6 +75,7 @@
         <script src="scripts/typedtext.js"></script>
         <script src="scripts/app.js"></script>     
         <script src="scripts/quotes.js"></script>     
+        <script src="scripts/music.js"></script>     
         
     </body>
     
