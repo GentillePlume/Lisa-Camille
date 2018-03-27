@@ -87,15 +87,15 @@ This is a present project for Lisa Camille, an artist that I very love and I sup
 - [x] Add designs in background ❌
 - [ ] Develop a script to rotate the quotes autmatically ❌
 
-## MUSIC v1
-- [x] Basic HTML skeleton ✔️
-- [x] Basic CSS style ✔️
-- [x] Create 2 row (1. All videos | 2. Creations) ✔️
-- [x] Add iframes ✔️
-- [x] Add icons & titles ✔️
-- [x] Add a bounce animation on icon when title box is hovered ✔️
-- [ ] Make the backgrounds gradient side to side ❌
-- [ ] Make the section responsive for the desktop ~~version ❌~~
+## ~~MUSIC v1~~
+- [x] ~~Basic HTML skeleton~~ ✔️
+- [x] ~~Basic CSS style~~ ✔️
+- [x] ~~Create 2 row (1. All videos | 2. Creations)~~ ✔️
+- [x] ~~Add iframes~~ ✔️
+- [x] ~~Add icons & titles~~ ✔️
+- [x] ~~Add a bounce animation on icon when title box is hovered~~ ✔️
+- [ ] ~~Make the backgrounds gradient side to side~~ ❌
+- [ ] ~~Make the section responsive for the desktop version~~ ❌
 
 ## MUSIC v2
 - [x] Basic HTML skeleton ✔️
