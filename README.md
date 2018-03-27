@@ -98,8 +98,8 @@ This is a present project for Lisa Camille, an artist that I very love and I sup
 - [ ] ~~Make the section responsive for the desktop version~~ ❌
 
 ## MUSIC v2
-- [x] Basic HTML skeleton ✔️
-- [x] Basic CSS style ✔️
+- [ ] Basic HTML skeleton ❌
+- [ ] Basic CSS style ❌
 
 ## STATS
 - [x] Basic HTML skeleton ✔️
