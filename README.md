@@ -127,3 +127,4 @@ This is a present project for Lisa Camille, an artist that I very love and I sup
 - [ ] Customize the scrollbar ❌
 - [ ] Make that scroll can only move to anchors ❌
 - [ ] Integrate all used images in the code (svg images) ⌛️❌
+- [ ] Add a Google Analytics script ❌
