@@ -61,12 +61,15 @@ This is a present project for Lisa Camille, an artist that I very love and I sup
 - [ ] Add an indicator of the viewed section ❌
 - [ ] Link menu to section with a smooth scroll ⌛️❌
 
+- [ ] Fix the responsivity for the desktop version ❌
+- [ ] Develope the tablet style ❌
+- [ ] Develope the mobile style ❌
+
 ## HEADER
 - [x] Basic HTML skeleton ✔️
 - [x] Basic CSS style ✔️
 - [x] Add the content ✔️
 - [x] Add content animation (type.js) ✔️
-- [ ] Add background particles ❔
 - [ ] Add a sound control button ❌
 
 ## PRESENTATION
@@ -76,7 +79,7 @@ This is a present project for Lisa Camille, an artist that I very love and I sup
 - [x] Add an hover effect on profil image ✔️
 - [x] Add an hover effect on the button ✔️
 - [x] Add additional content with icon ✔️
-- [ ] Remove the section title ❌
+- [x] Remove the section title ✔️
 - [ ] Add the parallax effect on the profil image ❌
 - [ ] Open a map when the localization is hovered ❌
 
