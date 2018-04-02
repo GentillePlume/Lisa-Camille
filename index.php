@@ -70,7 +70,6 @@
         <script src="resources/particles.js/particles.js"></script>
         
         <!--OTHER SCRIPTS-->
-        <script src="scripts/sizes.js"></script>
         <script src="scripts/navbar.js"></script>
         <script src="scripts/typedtext.js"></script>
         <script src="scripts/app.js"></script>     
