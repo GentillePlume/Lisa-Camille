@@ -1,6 +1,3 @@
-[submodule "resources/jquery.smoothwheel"]
-	path = resources/jquery.smoothwheel
-	url = https://github.com/fatlinesofcode/jquery.smoothwheel.git
 [submodule "resources/particles.js"]
 	path = resources/particles.js
 	url = https://github.com/VincentGarreau/particles.js.git
