@@ -10,3 +10,6 @@
 [submodule "resources/typed.js"]
 	path = resources/typed.js
 	url = https://github.com/mattboldt/typed.js.git
+[submodule "resources/jquery-smooth-scroll"]
+	path = resources/jquery-smooth-scroll
+	url = https://github.com/kswedberg/jquery-smooth-scroll.git
