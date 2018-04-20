@@ -7,3 +7,6 @@
 [submodule "resources/font-awesome"]
 	path = resources/font-awesome
 	url = https://github.com/FortAwesome/Font-Awesome.git
+[submodule "resources/typed.js"]
+	path = resources/typed.js
+	url = https://github.com/mattboldt/typed.js.git
