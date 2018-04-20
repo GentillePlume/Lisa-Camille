@@ -67,7 +67,6 @@
         <!--RESOURCES-->
         <script src="resources/jquery-3.3.1.js"></script>
         <script src="resources/typed.js/lib/typed.js"></script>
-        <script src="resources/particles.js/particles.js"></script>
         
         <!--OTHER SCRIPTS-->
         <script src="scripts/navbar.js" type="text/javascript"></script>
