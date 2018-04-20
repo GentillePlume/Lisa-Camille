@@ -1,10 +1,10 @@
 // Smooth scrolling when navbar menu is clicked
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
-        e.preventDefault();
+var $root = $('html, body');
 
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
-            behavior: 'smooth'
-        });
-    });
+$('a[href^="#"]').click(function () {
+    $root.animate({
+        scrollTop: $( $.attr(this, 'href') ).offset().top
+    }, 500);
+
+    return false;
 });
