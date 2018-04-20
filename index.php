@@ -66,6 +66,7 @@
         
         <!--RESOURCES-->
         <script src="resources/jquery-3.3.1.js"></script>
+        <script src="https://code.jquery.com/jquery-migrate-3.0.1.js"></script>
         <script src="resources/typed.js/lib/typed.js"></script>
         
         <!--OTHER SCRIPTS-->
