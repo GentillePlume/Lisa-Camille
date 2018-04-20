@@ -9,7 +9,7 @@
         
         <!--TOOLS & RESSOURCES-->
         <link href="resources/animate.css" rel="stylesheet">
-        <link href="resources/fontawesome-5.0.8/web-fonts-with-css/css/fontawesome-all.css" rel="stylesheet">
+        <link href="resources/font-awesome/web-fonts-with-css/css/fontawesome-all.css" rel="stylesheet">
         <link href="resources/fonts/fonts.css" rel="stylesheet">
         
         <!--GENERAL PROPERTIES-->
@@ -70,11 +70,12 @@
         <script src="resources/particles.js/particles.js"></script>
         
         <!--OTHER SCRIPTS-->
-        <script src="scripts/navbar.js"></script>
-        <script src="scripts/typedtext.js"></script>
-        <script src="scripts/app.js"></script>     
-        <script src="scripts/quotes.js"></script>     
-        <script src="scripts/music.js"></script>     
+        <script src="scripts/navbar.js" type="text/javascript"></script>
+        <script src="scripts/typedtext.js" type="text/javascript"></script>
+        <script src="scripts/app.js" type="text/javascript"></script>     
+        <script src="scripts/quotes.js" type="text/javascript"></script>     
+        <script src="scripts/music.js" type="text/javascript"></script>
+        <script src="scripts/smoothscrolling.js" type="text/javascript"></script>
         
     </body>
     
