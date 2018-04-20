@@ -1,5 +1,5 @@
 /*SECTION PROPERTIES*/
-#section-stats
+#stats
 {
     display: flex;
     
@@ -14,7 +14,7 @@
 }
 
 /*LOGO*/
-#section-stats > svg
+#stats > svg
 {
     display: inline-block;
     
@@ -23,7 +23,7 @@
 }
 
 /*ALL BOXES*/
-#section-stats div
+#stats div
 {
     display: flex;
     
@@ -36,7 +36,7 @@
 }
 
 /*ICONS BOX*/
-#section-stats > div > div:first-child
+#stats > div > div:first-child
 {
     display: flex;
     
@@ -49,7 +49,7 @@
 }
 
 /*ALL ICONS*/
-#section-stats i
+#stats i
 {
     display: inline-block;
     
@@ -64,7 +64,7 @@
 }
 
 /*TEXTS BOX*/
-#section-stats > div > div:last-child
+#stats > div > div:last-child
 {
     display: flex;
     
@@ -77,7 +77,7 @@
 }
 
 /*ALL TEXTS*/
-#section-stats p
+#stats p
 {
     display: inline-block;
     
@@ -93,24 +93,24 @@
 }
 
 /*INFO TEXTS*/
-#section-stats > div > div > p:last-child
+#stats > div > div > p:last-child
 {
     display: none;
 }
 
 /*INFO TEXTS WHEN BOX IS HOVERED*/
-#section-stats > div:hover > div > p:last-child
+#stats > div:hover > div > p:last-child
 {
     display: inline-block;
 }
 
 /*CHANNEL STATS WHEN BOX IS HOVERED*/
-#section-stats > div:hover > div > p
+#stats > div:hover > div > p
 {
     display: none;
 }
 
-#section-stats separator
+#stats separator
 {
     display: inline-block;
     

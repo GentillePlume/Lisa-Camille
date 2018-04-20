@@ -1,5 +1,5 @@
 /*SECTION PROPERTIES*/
-#section-presentation
+#presentation
 {
     display: flex;
     
@@ -13,7 +13,7 @@
 }
 
 /*LEFT SPACE*/
-#section-presentation > #s1-left
+#presentation > #s1-left
 {
     display: flex;
     
@@ -28,13 +28,13 @@
 }
 
 /*LEFT SPACE WHEN HOVERED*/
-#section-presentation > #s1-left:hover
+#presentation > #s1-left:hover
 {
     background-image: url(../../img/profil2.jpg);
 }
 
 /*RIGHT SPACE*/
-#section-presentation > div:last-child
+#presentation > div:last-child
 {
     display: flex;
     
@@ -53,7 +53,7 @@
 */
 
 /*TEXT*/
-#section-presentation > div:last-child > p
+#presentation > div:last-child > p
 {
     display: inline-block;
     
@@ -71,7 +71,7 @@
 }
 
 /*INFOS SPACE*/
-#section-presentation > div:last-child > div:last-child
+#presentation > div:last-child > div:last-child
 {
     display: flex;
     
@@ -87,7 +87,7 @@
 }
 
 /*INFOS BOXES*/
-#section-presentation > div:last-child > div:last-child > div
+#presentation > div:last-child > div:last-child > div
 {
     display: flex;
     
@@ -102,13 +102,13 @@
 }
 
 /*LAST INFO BOX*/
-#section-presentation > div:last-child > div:last-child > div:last-child
+#presentation > div:last-child > div:last-child > div:last-child
 {
     width: 100%;
 }
 
 /*ICONS*/
-#section-presentation img
+#presentation img
 {
     display: inline-block;
     
@@ -117,7 +117,7 @@
 }
 
 /*INFOS BOXES TEXT CONTENT*/
-#section-presentation > div:last-child > div:last-child > div > p
+#presentation > div:last-child > div:last-child > div > p
 {
     display: inline-block;
     

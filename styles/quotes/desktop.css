@@ -1,4 +1,4 @@
-#section-quotes
+#quotes
 {
     display: block;
     
@@ -10,7 +10,7 @@
     background-attachment: fixed;
 }
 
-#section-quotes overlay
+#quotes overlay
 {
     display: flex;
     
@@ -23,8 +23,8 @@
     background-color: rgba(0, 69, 255, 0.9);
 }
 
-#section-quotes p,
-#section-quotes span
+#quotes p,
+#squotes span
 {
     width: auto;
     height: auto;
@@ -33,5 +33,5 @@
     color: white;
 }
 
-#section-quotes p {font-family: hamilton}
-#section-quotes span {font-family: aroundthebooks}
+#quotes p {font-family: hamilton}
+#quotes span {font-family: aroundthebooks}
