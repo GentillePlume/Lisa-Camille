@@ -1,11 +1,12 @@
 /*SECTION PROPERTIES*/
-#section-footer
+#footer
 {
     display: flex;
     
     width: 100vw;
     height: 5vh;
     
+    flex-flow: column;
     justify-content: center;
     align-items: center;
     
@@ -13,9 +14,10 @@
 }
 
 /*TEXT CONTENT*/
-#section-footer p
+#footer p
 {
     display: inline-block;
+    position: relative;
     
     width: auto;
     height: auto;
@@ -26,34 +28,13 @@
 }
 
 /*TEXT CONTENT*/
-#section-footer p:first-child
+#footer p
 {
     animation-name: fadeInDown;
 }
 
-/*TEXT CONTENT - WHEN FOOTER IS HOVERED*/
-#section-footer:hover p:first-child
-{
-    animation-name: fadeOutUp;
-    animation-delay: 1s;
-}
-
-/*SURPRISE TEXT CONTENT*/
-#section-footer p:last-child
-{
-    position: absolute;
-    animation-name: fadeOutDown;
-}
-
-/*SURPRISE TEXT CONTENT - WHEN FOOTER IS HOVERED*/
-#section-footer:hover p:last-child
-{
-    animation-name: fadeInUp;
-    animation-delay: 1s;
-}
-
 /*LINK*/
-#section-footer a
+#footer a
 {
     color: aqua;
 }
