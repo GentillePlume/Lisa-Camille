@@ -30,9 +30,6 @@
         <!--MUSIC-->
         <link rel="stylesheet" type="text/css" href="styles/music/desktop.css">
         
-        <!--STATS-->
-        <link rel="stylesheet" type="text/css" href="styles/stats/desktop.css">
-        
         <!--FOOTER-->
         <link rel="stylesheet" type="text/css" href="styles/footer/desktop.css">     
         
@@ -42,6 +39,8 @@
    
     <body>
     
+       <div id="overlay"></div>
+       
         <!--########## ELEMENTS ##########-->
         
         <!--HEADER-->
@@ -55,9 +54,6 @@
         
         <!--MUSIC-->
         <?php include 'elements/music.html'?>
-        
-        <!--STATS-->
-        <?php include 'elements/stats.html'?>
         
         <!--FOOTER-->
         <?php include 'elements/footer.html'?>
