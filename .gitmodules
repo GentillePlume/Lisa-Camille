@@ -13,3 +13,6 @@
 [submodule "resrouces/fullpage.js"]
 	path = resrouces/fullpage.js
 	url = https://github.com/alvarotrigo/fullPage.js.git
+[submodule "resources/fullpage.js"]
+	path = resources/fullpage.js
+	url = https://github.com/alvarotrigo/fullPage.js.git
