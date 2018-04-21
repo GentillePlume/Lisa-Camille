@@ -4,6 +4,3 @@
 [submodule "resources/typed.js"]
 	path = resources/typed.js
 	url = https://github.com/mattboldt/typed.js.git
-[submodule "resources/jquery"]
-	path = resources/jquery
-	url = https://github.com/jquery/jquery.git
