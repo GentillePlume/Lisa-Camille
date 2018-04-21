@@ -4,3 +4,12 @@
 [submodule "resources/typed.js"]
 	path = resources/typed.js
 	url = https://github.com/mattboldt/typed.js.git
+[submodule "resources/animate.css"]
+	path = resources/animate.css
+	url = https://github.com/daneden/animate.css.git
+[submodule "resources/simplebar"]
+	path = resources/simplebar
+	url = https://github.com/Grsmto/simplebar.git
+[submodule "resrouces/fullpage.js"]
+	path = resrouces/fullpage.js
+	url = https://github.com/alvarotrigo/fullPage.js.git
