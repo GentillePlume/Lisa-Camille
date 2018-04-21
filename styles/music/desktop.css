@@ -4,120 +4,53 @@
     display: flex;
     
     width: 100vw;
-    height: 80vh;
+    height: 100vh;
     
-    flex-flow: row nowrap;
-    
-    justify-content: center;
-    align-items: center;
+    flex-flow: column;
     
     background-color: #f0f0f0;
     
     z-index: 0;
 }
 
-/*RIGHT & LEFT BOXES */
-#music > div
+/*RIGHT & LEFT SPACES CONTAINER*/
+#music > div:first-child
+{
+    display: flex;
+    
+    width: 100%;
+    height: 90%;
+    
+    flex-flow: row;
+}
+
+/*RIGHT & LEFT SPACES */
+#music > div:first-child > div
 {
     display: flex;
     
     width: 50%;
     height: 100%;
     
-    flex-flow: row nowrap;
-    
-    transition: all .3s ease-in-out 0s;
-}
-
-#music triangle
-{
-    display : inline-block;
-    position: absolute;
-    
-    height : 0;
-    width : 0;
-    
-    border-top : 150px solid transparent;
-}
-
-#s2-leftbox:after
-{
-    content: ' ';
-    width: 0px;
-    height: 0px;
-    border: 10px solid transparent;
-    border-left: 10px solid red;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-}
-
-#s2-triangle-right
-{
-    border-right : 150px solid #a2e89b; 
-    border-bottom : 150px solid transparent; 
-}
-
-/* CLOSE CROSS */
-#music > img
-{
-    display: inline-block;
-    position: absolute;
-    
-    height: 2vh;
-    width: auto;
-    
-    margin-top: 1vh;
-    
-    align-self: flex-start;
-    
-    background-color: white;
-    border-radius: 100%;
-}
-
-/*ROW TITLE BOXES*/
-#music > div > div,
-#music > div > div
-{
-    display: flex;
-    
-    width: 100%;
-    height: 100%;
-    
-    flex-flow: column;
     justify-content: center;
     align-items: center;
+    
+    flex-flow: column;
 }
 
-/*LEFT MENU TITLE BOX BACKGROUND COLOR*/
-#music > div:first-child > div:first-child {background-color: #d89fe8}
-
-/*RIGHT MENU TITLE BOX BACKGROUND COLOR*/
-#music > div:last-child > div:last-child {background-color: #a2e89b}
-
-/*IMAGES*/
-#music img
+/*SPACES IMAGES*/
+#music > div:first-child > div > img
 {
     display: inline-block;
     
-    width: 175px;
+    width: 300px;
     height: auto;
     
-    -webkit-animation-name: bounce;
-    animation-name: bounce;
-    
-    animation-iteration-count: 0;
+    margin-bottom: 25px;
 }
 
-/*IMAGES WHEN TITLE BOX IS HOVERED*/
-#music > div > div:first-child:hover > img,
-#music > div > div:last-child:hover > img
-{
-    animation-iteration-count: infinite;
-}
-
-/*MENU TITLES*/
-#music h2
+/*SPACES TITLES*/
+#music > div:first-child > div > h2
 {
     display: inline-block;
     
@@ -125,28 +58,168 @@
     height: auto;
     
     font-size: 50px;
-    font-family: quicksand;
+    font-family: myriadpro;
 }
 
-/*iframes*/
-#music iframe
+/*SPACES iFRAMES*/
+#music > div:first-child > div > iframe
 {
     display: none;
+    position: absolute;
+    left: 0; 
+    right: 0;
     
-    width: 560px;
-    height: 315px;
+    width: 80%;
+    height: 85%;
     
-    z-index: 1;
+    margin-left: auto; 
+    margin-right: auto;
+    
+    z-index: 100;
 }
 
-/*
-######################################################################
-                            HOVER EFFECTS
-######################################################################
-*/
+/*##### SPACES CUSTOMIZATIONS #####*/
 
-/*RIGHT SPACE WHEN LEFT IS HOVERED (ALL VIDEOS)*/
-#music > div:first-child:hover 
+/*LEFT SPACE*/
+#music > div:first-child > div:first-child
 {
+    background-color: blue;
+}
+
+/*RIGHT SPACE*/
+#music > div:first-child > div:last-child
+{
+    background-color: green;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*SECTION PROPERTIES*/
+#music > div:last-child
+{
+    display: flex;
     
+    width: 100%;
+    height: 10%;
+    
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    
+    background-color: #FF0000;
+}
+
+/*LOGO*/
+#music > div:last-child > svg
+{
+    display: inline-block;
+    
+    width: 10%;
+    height: 100%;
+}
+
+/*ALL BOXES*/
+#music > div:last-child div
+{
+    display: flex;
+    
+    width: 17%;
+    height: 100%;
+    
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/*ICONS BOX*/
+#music > div:last-child > div > div:first-child
+{
+    display: flex;
+    
+    width: 25%;
+    height: 100%;
+    
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/*ALL ICONS*/
+#music > div:last-child i
+{
+    display: inline-block;
+    
+    width: auto;
+    height: auto;
+    
+    font-size: 3vw;
+    
+    color: white;
+    
+    transition: all .3s ease-in-out 0s;
+}
+
+/*TEXTS BOX*/
+#music > div:last-child > div > div:last-child
+{
+    display: flex;
+    
+    width: 75%;
+    height: 100%;
+    
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/*ALL TEXTS*/
+#music > div:last-child p
+{
+    display: inline-block;
+    
+    width: auto;
+    height: auto;
+    
+    font-size: 3vw;
+    font-family: lobster;
+    
+    color: white;
+    
+    transition: all .3s ease-in-out 0s;
+}
+
+/*INFO TEXTS*/
+#music > div:last-child > div > div > p:last-child
+{
+    display: none;
+}
+
+/*INFO TEXTS WHEN BOX IS HOVERED*/
+#music > div:last-child > div:hover > div > p:last-child
+{
+    display: inline-block;
+}
+
+/*CHANNEL STATS WHEN BOX IS HOVERED*/
+#music > div:last-child > div:hover > div > p
+{
+    display: none;
+}
+
+#music > div:last-child separator
+{
+    display: inline-block;
+    
+    width: 1px;
+    height: 50%;
+    
+    background-color: white;
 }
