@@ -23,14 +23,8 @@
     height: auto;
     
     font-size: 20px;
-    font-family: myriadpro;
+    font-family: poiretone;
     color: white;
-}
-
-/*TEXT CONTENT*/
-#footer p
-{
-    animation-name: fadeInDown;
 }
 
 /*LINK*/
