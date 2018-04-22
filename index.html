@@ -30,7 +30,7 @@
         <div class="section active" id="home">
             <div>
                 <!--OVERLAY-->
-                <video loop autoplay playinline poster="img/wallpaper.jpg" id="bgvid">
+                <video loop data-keepplaying data-autoplay data-playinline poster="img/wallpaper.jpg" id="bgvid">
                     <source data-src="vid/clip.mp4" type="video/mp4">
                 </video>
 
@@ -47,6 +47,11 @@
             <!--OVERLAY END-->
         </div>
         <!--HOME END-->
+        
+        <!--PRESENTATION SECTION-->
+        <div class="section" id="presentation">
+            
+        </div>
 
     </div>
     <!--FULLPAGE END-->
@@ -64,7 +69,7 @@
             $('#fullpage').fullpage({
                 navigation: true,
                 css3: true,
-                scrollBar: true
+                scrollBar: false
             });
         });
     </script>
