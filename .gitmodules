@@ -10,3 +10,6 @@
 [submodule "resources/fullpage.js"]
 	path = resources/fullpage.js
 	url = https://github.com/alvarotrigo/fullPage.js.git
+[submodule "resources/animate.css"]
+	path = resources/animate.css
+	url = https://github.com/daneden/animate.css.git
