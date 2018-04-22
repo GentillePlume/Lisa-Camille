@@ -13,3 +13,6 @@
 [submodule "resources/animate.css"]
 	path = resources/animate.css
 	url = https://github.com/daneden/animate.css.git
+[submodule "resources/scrollmagic"]
+	path = resources/scrollmagic
+	url = https://github.com/janpaepke/ScrollMagic.git
