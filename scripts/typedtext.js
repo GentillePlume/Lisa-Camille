@@ -11,7 +11,7 @@ var typed = new Typed('#home div div h1', {
 
 // Effect of the main sub-title
 var typed = new Typed('#home div div p', {
-    strings: ["Artiste, ^1000 youtubeuse, ^1000 compositrice, ^1000 et interprète"],
+    strings: ["Artiste, ^1000 chanteuse, ^1000 compositrice, ^1000 et interprète"],
     typeSpeed: 60,
     loop: false,
     backSpeed: 15,
