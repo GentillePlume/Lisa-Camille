@@ -16,6 +16,6 @@
 [submodule "resources/scrollmagic"]
 	path = resources/scrollmagic
 	url = https://github.com/janpaepke/ScrollMagic.git
-[submodule "resources/parallax"]
-	path = resources/parallax
-	url = https://github.com/wagerfield/parallax.git
+[submodule "resources/parallax_background"]
+	path = resources/parallax_background
+	url = https://github.com/lemehovskiy/parallax_background.git
