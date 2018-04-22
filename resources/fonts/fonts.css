@@ -82,3 +82,8 @@
     font-family: Hamilton;
     src: url('hamilton.ttf');
 }
+
+@font-face {
+    font-family: blackhansans;
+    src: url('BlackHanSans-Regular.ttf');
+}
