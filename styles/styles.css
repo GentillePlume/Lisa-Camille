@@ -1,6 +1,6 @@
 #home
 {
-    display: flex;
+    display: inline-block;
     
     width: 100vw;
     height: 100vh;
@@ -9,15 +9,13 @@
 }
 
 /*OVERLAY*/
-#home > div
+#home div:first-child
 {
     display: flex;
     
     width: 100%;
     height: 100%;
-    
-    margin: auto 0;
-    
+        
     justify-content: center;
     align-items: center;
     
@@ -39,30 +37,30 @@
     -moz-transform: translateX(-50%) translateY(-50%);
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
-    background: url(../../img/wallpaper.jpg) no-repeat;
+    background: url(../img/wallpaper.jpg) no-repeat;
     background-size: cover;
 }
 
 /*TEXT CONTENT BOX*/
-#home > div > div
+#home div > div
 {
     display: flex;
     
     min-width: 50%;
     width: auto;
-    max-width: 70%;
+    max-width: 100%;
     
     min-height: 250px;
     height: auto;
     max-height: 100%;
     
-    flex-flow: column nowrap;
+    flex-flow: column;
     justify-content: space-between;
     align-items: center;
 }
 
 /*TITLE*/
-#home div div h1
+#home h1
 {
     display: inline-block;
     
@@ -75,7 +73,7 @@
 }
 
 /*DESCRIPTION*/
-#home div div p
+#home p
 {
     display: inline-block;
     
