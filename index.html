@@ -24,20 +24,49 @@
 
 <body>
 
-   
-   
+    <div id="fullpage">
+
+        <!--##### HEADER #####-->
+        <div class="section active" id="home">
+            <div>
+                <!--OVERLAY-->
+                <video loop autoplay playinline poster="../img/wallpaper.jpg" id="bgvid">
+            <source src="vid/clip.mp4" type="video/mp4">
+        </video>
+
+                <div>
+                    <!--TEXT CONTENT BOX-->
+                    <h1></h1>
+                    <!--LISA CAMILLE-->
+                    <p></p>
+                    <!--DESCRIPTION-->
+                </div>
+                <!--TEXT CONTENT BOX END-->
+
+            </div>
+            <!--OVERLAY END-->
+        </div>
+
+    </div>
+    <!--FULLPAGE END-->
+
     <!--########## SCRIPTS ##########-->
 
     <!--RESOURCES-->
     <script src="resources/jquery.js" type="text/javascript"></script>
-    <script src="https://code.jquery.com/jquery-migrate-3.0.1.js" type="text/javascript"></script>
-    <script src="resources/fullpage.js/jquery.fullPage.js" type="text/javascript"></script>
-    
+    <!--<script src="https://code.jquery.com/jquery-migrate-3.0.1.js" type="text/javascript"></script>-->
     <script src="resources/typed.js/lib/typed.js" type="text/javascript"></script>
+
+    <script src="resources/fullpage.js/jquery.fullPage.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#fullpage').fullpage();
+        });
+    </script>
 
     <!--OTHER SCRIPTS-->
     <script src="scripts/typedtext.js" type="text/javascript"></script>
-    <script src="scripts/smoothscrolling.js" type="text/javascript"></script>
 
 </body>
 
