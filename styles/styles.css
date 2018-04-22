@@ -1,3 +1,9 @@
+/*
+##################################################
+                    HOME SECTION
+##################################################
+*/
+
 #home
 {
     display: inline-block;
@@ -23,7 +29,7 @@
 }
 
 /*VIDEO BACKGROUND PROPERTIES*/
-#home #bgvid
+#bgvid
 {
     position: fixed;
     top: 50%;
@@ -83,4 +89,20 @@
     font-size: 40px;
     font-family: QuickSand;
     color: white;
+}
+
+/*
+##################################################
+                PRENSETATION SECTION
+##################################################
+*/
+
+#presentation
+{
+    display: inline-block;
+    
+    width: 100vw;
+    height: 100vh;
+    
+    background-color: white;
 }
