@@ -6,6 +6,10 @@
 
     <meta charset="utf-8">
 
+    <!--FAVICON-->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+
     <!--########## STYLES SHEETS ##########-->
 
     <!--TOOLS & RESSOURCES-->
@@ -23,7 +27,7 @@
 <!--####################################################################################################-->
 
 <body>
-
+      
     <div id="fullpage">
 
         <!--##### HOME #####-->
@@ -49,10 +53,24 @@
         <!--HOME END-->
 
         <!--PRESENTATION SECTION-->
-        <div class="section" id="presentation">
+        <div class="section parallax-background" id="presentation">
+            <div>
+               
+                <div>
+                    <h2>Chanteuse</h2>
+                    <h2>Autrice</h2>
+                    <h2>Compositrice</h2>
+                </div>
 
+                <p><b>Lisa Camille</b> est une jeune artiste française, chanteuse et guitariste, qui reprend des chansons et qui, depuis peu, publie ses propres créations.</p>
+                
+                <a href="#presentation">en savoir plus</a>
+                
+            </div>
+            <div class="parallax-inner">
+            </div>
         </div>
-        
+
         <!--MUSIC SECTION-->
         <div class="section" id="music">
 
@@ -65,15 +83,30 @@
 
     <!--JQUERY-->
     <script src="resources/jquery.js" type="text/javascript"></script>
+    <!--<script src="https://code.jquery.com/jquery-migrate-3.0.1.js"></script>-->
     <!--TYPED.JS-->
     <script src="resources/typed.js/lib/typed.js" type="text/javascript"></script>
     <!--TYPED.JS CONFIG-->
     <script src="scripts/typedtext.js" type="text/javascript"></script>
     <!--SCROLLMAGIC-->
     <script src="resources/scrollmagic/scrollmagic/uncompressed/ScrollMagic.js"></script>
+
+    <!--PARALLAXBACKGROUND.JS-->
+    <script src="resources/greensock.js/src/minified/TweenLite.min.js"></script>
+    <script src="resources/greensock.js/src/minified/plugins/CSSPlugin.min.js"></script>
+    <script src="resources/parallax_background/build/parallax_background.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('.parallax-background').parallaxBackground({
+                event: 'mouse_move',
+                animation_type: 'shift',
+                animate_duration: 2
+            });;
+        });
+    </script>
+
     <!--FULLPAGE.JS-->
     <script src="resources/fullpage.js/jquery.fullPage.js" type="text/javascript"></script>
-
     <script type="text/javascript">
         $(document).ready(function() {
             $('#fullpage').fullpage({
