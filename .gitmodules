@@ -19,3 +19,6 @@
 [submodule "resources/parallax_background"]
 	path = resources/parallax_background
 	url = https://github.com/lemehovskiy/parallax_background.git
+[submodule "resources/greensock.js"]
+	path = resources/greensock.js
+	url = https://github.com/greensock/GreenSock-JS.git
