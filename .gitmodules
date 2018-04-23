@@ -22,3 +22,6 @@
 [submodule "resources/greensock.js"]
 	path = resources/greensock.js
 	url = https://github.com/greensock/GreenSock-JS.git
+[submodule "resources/parallax.js"]
+	path = resources/parallax.js
+	url = https://github.com/wagerfield/parallax.git
