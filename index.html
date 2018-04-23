@@ -27,7 +27,7 @@
 <!--####################################################################################################-->
 
 <body>
-      
+
     <div id="fullpage">
 
         <!--##### HOME #####-->
@@ -52,27 +52,29 @@
         </div>
         <!--HOME END-->
 
-        <!--PRESENTATION SECTION-->
+        <!--PRESENTATION-->
         <div class="section parallax-background" id="presentation">
             <div>
-               
+
                 <div>
-                    <h2>Chanteuse</h2>
-                    <h2>Autrice</h2>
-                    <h2>Compositrice</h2>
+                    <h2 id="h2-1">Chanteuse</h2>
+                    <h2 id="h2-2">Autrice</h2>
+                    <h2 id="h2-3">Compositrice</h2>
                 </div>
 
                 <p><b>Lisa Camille</b> est une jeune artiste française, chanteuse et guitariste, qui reprend des chansons et qui, depuis peu, publie ses propres créations.</p>
-                
+
                 <a href="#presentation">en savoir plus</a>
-                
+
             </div>
             <div class="parallax-inner">
             </div>
         </div>
+        <!--PRESENTATION END-->
 
-        <!--MUSIC SECTION-->
+        <!--MUSIC-->
         <div class="section" id="music">
+        <!--MUSIC END-->
 
         </div>
 
@@ -90,6 +92,17 @@
     <script src="scripts/typedtext.js" type="text/javascript"></script>
     <!--SCROLLMAGIC-->
     <script src="resources/scrollmagic/scrollmagic/uncompressed/ScrollMagic.js"></script>
+    <script type="text/javascript">
+        // init controller
+        var controller = new ScrollMagic.Controller();
+
+        // create a scene
+        new ScrollMagic.Scene({
+                triggerElement: '#presentation h2',
+            })
+            .setClassToggle("#presentation h2", 'h2showed')
+            .addTo(controller); // assign the scene to the controller
+    </script>
 
     <!--PARALLAXBACKGROUND.JS-->
     <script src="resources/greensock.js/src/minified/TweenLite.min.js"></script>
@@ -110,9 +123,11 @@
     <script type="text/javascript">
         $(document).ready(function() {
             $('#fullpage').fullpage({
+                /*anchors:['accueil', 'secondPage'],*/
                 navigation: true,
                 css3: true,
-                scrollBar: false
+                scrollBar: false,
+                scrollingSpeed: 1500
             });
         });
     </script>
