@@ -131,7 +131,7 @@
     z-index: -1;
 }
 
-/*MAIN CONTENT BOX*/
+/*LEFT CONTENT BOX*/
 #presentation > div:first-child
 {
     display: inline-block;
@@ -152,6 +152,8 @@
     
     flex-flow: column nowrap;
     align-items: center;
+    
+    /*transition: all 1s ease-in-out 0s;*/
 }
 
 /*TITLES BOX*/
@@ -196,14 +198,13 @@
     transition: all 1s ease-in-out .9s;
 }
 
-
 #presentation h2.h2showed
 {
     transform: translateX(0px);
 }
 
 /*DESCRIPTION*/
-#presentation p
+#presentation div > p
 {
     display: inline-block;
     
@@ -217,10 +218,20 @@
     text-align: justify;
     
     margin: auto 0;
+    
+    opacity: 0;
+    
+    transition: all 2s ease-in-out 1s;
+}
+
+/*DESCRIPTION SHOW ANIMATION*/
+#presentation div > p.pshowed
+{
+    opacity: 1;
 }
 
 /*LINK*/
-#presentation a
+.presentation a
 {
     display: flex;
     position: absolute;
@@ -234,12 +245,49 @@
     justify-content: center;
     align-items: center;
     
+    cursor: pointer;
+    
+    transition: all .5s ease-in-out 0s;
+}
+
+/*ABOUT BUTTON*/
+#about
+{
+    background-color: rgba(0, 98, 255, 0.8);
+}
+
+/*CLOSE ABOUT BUTTON*/
+#closeabout
+{
+    display: none;
+    background-color: rgba(255, 0, 0, 0.8);
+    /*transition: all .2s ease-in-out 0s;*/
+}
+
+/*CLOSE ABOUT BUTTON WHEN HOVERED*/
+#closeabout:hover
+{
+    height: 10.5%;
+}
+#closeabout:hover p
+{
+    font-size: 2.6vw;
+}
+
+/*LINK TEXT CONTENT*/
+.presentation a > p
+{
+    display: inline-block;
+    
+    width: auto;
+    height: auto;
+    
     font-size: 2.5vw;
     font-family: indieflower;
     color: white;
     text-transform: capitalize;
     
-    background-color: rgba(0, 108, 255, 0.8);
+    transition: all .2s ease-in-out 0s;
 }
 
 
