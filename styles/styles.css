@@ -169,7 +169,7 @@
 }
 
 /*TITLES BOX*/
-#presentation > div:first-child > div:first-child > div:first-child > div:first-child
+#titlesbox
 {
     display: flex;
     
@@ -181,7 +181,7 @@
 }
 
 /*TITLES*/
-#presentation h2
+#presentation h1
 {
     display: inline-block;
     
@@ -195,20 +195,29 @@
     transform: translateX(-500px);
 }
 
-#presentation h2:first-child
+/*TITLES WHEN ABOUT IS LAUNCHED*/
+#presentation h2
+{
+    display: none;
+    
+    width: auto;
+    height: auto;
+}
+
+#presentation h1:first-child
 {
     transition: all 1s ease-in-out .3s;
 }
-#presentation h2:nth-child(2)
+#presentation h1:nth-child(2)
 {
     transition: all 1s ease-in-out .6s;
 }
-#presentation h2:last-child
+#presentation h1:nth-child(3)
 {
     transition: all 1s ease-in-out .9s;
 }
 
-#presentation h2.h2showed
+#presentation h1.h1showed
 {
     transform: translateX(0px);
 }
