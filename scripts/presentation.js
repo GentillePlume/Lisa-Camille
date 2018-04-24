@@ -13,12 +13,12 @@ about.click(function () {
 
     setTimeout(function () {
         about[0].style.width = 100 + "%";
+        overlay[0].style.backgroundColor = "rgba(255,255,255,1)";
     }, 500);
 
     setTimeout(function () {
         about[0].style.marginLeft = 25 + "%";
         about[0].style.width = 75 + "%";
-        overlay[0].style.backgroundColor = "rgba(255,255,255,1)";
     }, 1200);
 
     setTimeout(function () {
@@ -31,7 +31,7 @@ about.click(function () {
     
     setTimeout(function () {
         overlay[0].style.transition = "all 1s ease-in-out 0s";
-        overlay[0].style.backgroundColor = "rgba(255,255,255,0.8)";
+        overlay[0].style.backgroundColor = "rgba(255,255,255,0.7)";
     }, 2500);
 });
 
