@@ -1,7 +1,7 @@
 var about = $('#about');
 var close = $('#closeabout');
-var panel = $('#presentation > div:first-child');
-var panelb = $('#presentation > div:first-child > div');
+var panel = $('#s2-panel');
+var overlay = $('#s2-paneloverlay');
 
 about.click(function () {
     console.log("about button clicked");
@@ -18,16 +18,21 @@ about.click(function () {
     setTimeout(function () {
         about[0].style.marginLeft = 25 + "%";
         about[0].style.width = 75 + "%";
+        overlay[0].style.backgroundColor = "rgba(255,255,255,1)";
     }, 1200);
 
     setTimeout(function () {
         close[0].style.display = "flex";
         panel[0].style.backgroundImage = "url(https://i.imgur.com/r15KJmc.jpg)";
-        panel[0].style.backgroundRepeat = 'no-repeat';
-        panel[0].style.backgroundPosition = 'center';
-        panel[0].style.backgroundSize = 'cover';
-        panel[0].style.backgroundColor = 'white';
+        panel[0].style.backgroundRepeat = "no-repeat";
+        panel[0].style.backgroundPosition = "center";
+        panel[0].style.backgroundSize = "cover";
     }, 2000);
+    
+    setTimeout(function () {
+        overlay[0].style.transition = "all 1s ease-in-out 0s";
+        overlay[0].style.backgroundColor = "rgba(255,255,255,0.8)";
+    }, 2500);
 });
 
 
@@ -40,6 +45,7 @@ close.click(function () {
     }, 0);
 
     setTimeout(function () {
+        panel[0].style.backgroundImage = "none";
         about[0].style.width = 25 + "%";
         
         close[0].style.display = "none";
