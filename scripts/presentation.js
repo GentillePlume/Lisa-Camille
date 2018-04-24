@@ -32,7 +32,7 @@ about.click(function () {
     setTimeout(function () {
         overlay[0].style.transition = "all 1s ease-in-out 0s";
         overlay[0].style.backgroundColor = "rgba(255,255,255,0.7)";
-    }, 2500);
+    }, 3000);
 });
 
 
@@ -56,11 +56,11 @@ close.click(function () {
 
     setTimeout(function () {
         about[0].style.height = 10 + "%";
-        about[0].style.backgroundColor = "rgba(0, 108, 255, 0.8)";
         about[0].style.cursor = "pointer";
     }, 1500);
     
     setTimeout(function () {
         document.querySelector('#presentation a > p').style.display = "inline-block";
+        about[0].style.backgroundColor = "rgba(0, 108, 255, 0.8)";
     }, 2000);    
 });
