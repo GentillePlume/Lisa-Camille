@@ -14,6 +14,11 @@ about.click(function () {
     setTimeout(function () {
         about[0].style.width = 100 + "%";
         overlay[0].style.backgroundColor = "rgba(255,255,255,1)";
+        $('#s2-titlesbox h1')[0].style.display = "none";
+        $('#s2-titlesbox h1')[1].style.display = "none";
+        $('#s2-titlesbox h1')[2].style.display = "none";
+        $('#s2-panel p')[0].style.display = "none";
+        $('#s2-titlesbox h2')[0].style.display = "inline-block";
     }, 500);
 
     setTimeout(function () {
@@ -45,6 +50,12 @@ close.click(function () {
     }, 0);
 
     setTimeout(function () {
+        $('#s2-titlesbox h1')[0].style.display = "inline-block";
+        $('#s2-titlesbox h1')[1].style.display = "inline-block";
+        $('#s2-titlesbox h1')[2].style.display = "inline-block";
+        $('#s2-panel p')[0].style.display = "inline-block";
+        $('#s2-titlesbox h2')[0].style.display = "none";
+        
         panel[0].style.backgroundImage = "none";
         about[0].style.width = 25 + "%";
         

@@ -169,7 +169,7 @@
 }
 
 /*TITLES BOX*/
-#titlesbox
+#s2-titlesbox
 {
     display: flex;
     
@@ -202,6 +202,10 @@
     
     width: auto;
     height: auto;
+    
+    font-size: 7vw;
+    font-family: poiretone;
+    color: #797979;
 }
 
 #presentation h1:first-child
