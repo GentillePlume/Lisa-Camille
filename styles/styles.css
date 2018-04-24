@@ -279,6 +279,21 @@
     background-color: rgba(0, 98, 255, 0.8);
 }
 
+/*ABOUT BOX TEXT CONTENT*/
+#about > p:last-child
+{
+    display: none;
+    
+    width: auto;
+    height: auto;
+    
+    padding: 0 100px;
+    
+    font-size: 20px;
+    font-family: myriadpro;
+    text-align: justify;
+}
+
 /*CLOSE ABOUT BUTTON*/
 #closeabout
 {
@@ -294,7 +309,8 @@
 }
 
 /*LINK TEXT CONTENT*/
-.presentation a > p
+#about p,
+#closeabout p
 {
     display: inline-block;
     
