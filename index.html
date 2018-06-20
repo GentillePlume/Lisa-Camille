@@ -66,13 +66,15 @@
                         <h1>Autrice</h1>
                         <h1>Compositrice</h1>
 
-                        <h2>Lisa<br>Camille</h2>
+                        <h1>Lisa<br>Camille</h1>
                     </div>
 
-                    <p><b>Lisa Camille</b> est une jeune artiste française, chanteuse et guitariste, qui reprend des chansons et qui, depuis peu, publie ses propres créations.</p>
+                    <p id="s2-shortdescription"><b>Lisa Camille</b> est une jeune artiste française, chanteuse et guitariste, qui reprend des chansons et qui, depuis peu, publie ses propres créations.</p>
 
                     <a id="about">
                         <p class="animated bounceIn">en savoir plus</p>
+                        
+                        <h1>en savoir plus</h1>
                         <p class="animated fadeInDown">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim ut sem viverra aliquet eget sit amet tellus. Magna sit amet purus gravida. Feugiat in ante metus dictum at tempor. Netus et malesuada fames ac turpis egestas sed tempus urna. Tincidunt dui ut ornare lectus sit amet est placerat. Pharetra massa massa ultricies mi quis hendrerit dolor magna. Facilisi etiam dignissim diam quis enim. Tincidunt praesent semper feugiat nibh sed pulvinar proin. Placerat in egestas erat imperdiet sed euismod nisi porta. Aliquet porttitor lacus luctus accumsan tortor posuere ac ut. Risus feugiat in ante metus dictum. Sapien nec sagittis aliquam malesuada bibendum arcu. Felis donec et odio pellentesque. Nibh sed pulvinar proin gravida hendrerit lectus a. Massa id neque aliquam vestibulum morbi blandit. Pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus. Etiam tempor orci eu lobortis elementum nibh. Bibendum at varius vel pharetra vel turpis nunc. Diam maecenas ultricies mi eget. Mus mauris vitae ultricies leo integer malesuada nunc. Mattis molestie a iaculis at erat pellentesque adipiscing commodo. Pharetra vel turpis nunc eget lorem. Habitant morbi tristique senectus et netus et malesuada fames ac. Adipiscing diam donec adipiscing tristique risus nec feugiat in. Pellentesque massa placerat duis ultricies lacus sed turpis tincidunt. Vel risus commodo viverra maecenas accumsan lacus vel facilisis volutpat. Malesuada nunc vel risus commodo viverra maecenas. Integer quis auctor elit sed vulputate. Pulvinar neque laoreet suspendisse interdum consectetur libero id faucibus. Justo donec enim diam vulputate ut pharetra sit. Morbi blandit cursus risus at ultrices mi tempus imperdiet nulla. Vestibulum morbi blandit cursus risus at ultrices mi tempus imperdiet.</p>
                     </a>
                     <a id="closeabout" class="animated fadeInUp">
@@ -129,13 +131,13 @@
         var scene1 = new ScrollMagic.Scene({
                 triggerElement: '#presentation',
             })
-            .setClassToggle("#presentation h1", 'h1showed')
+            .setClassToggle("#s2-titlesbox h1", 'h1showed')
             .addTo(controller);
 
         var scene2 = new ScrollMagic.Scene({
                 triggerElement: '#presentation',
             })
-            .setClassToggle("#presentation p", 'pshowed')
+            .setClassToggle("#s2-shortdescription", 'pshowed')
             .addTo(controller);
     </script>
 

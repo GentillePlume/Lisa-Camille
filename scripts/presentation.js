@@ -3,20 +3,17 @@ var close = $('#closeabout');
 var panel = $('#s2-panel');
 var overlay = $('#s2-paneloverlay');
 
-var aboutswitch = 0;
+about.click(open);
 
-if (aboutswitch = 1) {
-    about.off('click');
-} else {}
-
-about.click(function () {
+function open() {
     console.log("about button clicked");
-
-    aboutswitch = aboutswitch + 1;
+    
+    about.off('click');
     
     about[0].style.height = 100 + "%";
     about[0].style.backgroundColor = "rgba(0, 108, 255, 1)";
-    document.querySelector('#about p:first-child').style.display = "none";
+    $('#about p:first-child')[0].style.display = "none";
+    $('#about')[0].style.justifyContent = "flex-start";
     about[0].style.cursor = "default";
 
     setTimeout(function () {
@@ -26,7 +23,7 @@ about.click(function () {
         $('#s2-titlesbox h1')[1].style.display = "none";
         $('#s2-titlesbox h1')[2].style.display = "none";
         $('#s2-panel p')[0].style.display = "none";
-        $('#s2-titlesbox h2')[0].style.display = "inline-block";
+        $('#s2-titlesbox h1:last-child')[0].style.display = "inline-block";
     }, 500);
 
     setTimeout(function () {
@@ -42,18 +39,21 @@ about.click(function () {
         panel[0].style.backgroundSize = "cover";
 
         $('#about p:last-child')[0].style.display = "inline-block";
+        $('#about h1')[0].style.display = "inline-block";
     }, 2000);
 
     setTimeout(function () {
         overlay[0].style.transition = "all 1s ease-in-out 0s";
         overlay[0].style.backgroundColor = "rgba(255,255,255,0.7)";
     }, 3000);
-});
+};
 
 
 close.click(function () {
+    
     setTimeout(function () {
         $('#about p:last-child')[0].style.display = "none";
+        $('#about h1')[0].style.display = "none";
         close[0].style.width = 0;
         $('#closeabout p')[0].style.display = "none";
         about[0].style.marginLeft = 0;
@@ -65,7 +65,7 @@ close.click(function () {
         $('#s2-titlesbox h1')[1].style.display = "inline-block";
         $('#s2-titlesbox h1')[2].style.display = "inline-block";
         $('#s2-panel p')[0].style.display = "inline-block";
-        $('#s2-titlesbox h2')[0].style.display = "none";
+        $('#s2-titlesbox h1:last-child')[0].style.display = "none";
 
         panel[0].style.backgroundImage = "none";
         about[0].style.width = 25 + "%";
@@ -82,10 +82,9 @@ close.click(function () {
     }, 1500);
 
     setTimeout(function () {
+        $('#about')[0].style.justifyContent = "center";
         document.querySelector('#presentation a > p').style.display = "inline-block";
-        about.on('click');
         about[0].style.backgroundColor = "rgba(0, 108, 255, 0.8)";
-        
-        aboutswitch = aboutswitch - 1;
+        about.on('click', open);
     }, 2000);
 });
